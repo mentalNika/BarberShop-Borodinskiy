@@ -1,0 +1,28 @@
+.main-nav {
+}
+
+.main-nav__toggle {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.main-nav__wrapper {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 648px;
+    margin: 0 auto;
+
+    @media (min-width: $desktop-width) {
+      width: 960px;
+    }
+  }
+}
+
+.main-nav__list {
+}
+
+.main-nav__list a {
+  color: #fff;
+}
